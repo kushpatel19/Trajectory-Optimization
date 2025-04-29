@@ -58,3 +58,4 @@ The following visualization shows the comparison of MPPI and iLQR controllers in
   <img src="assets/final.gif" width="600" alt="MPPI vs iLQR Comparison">
 </p>
 
+Stay Tuned for better results:)
