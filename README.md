@@ -45,3 +45,23 @@ This script will:
 - Run both the iLQR and MPPI controllers on the double inverted pendulum task.
 - Save simulation results as GIFs (`mppi.gif`, `ilqr.gif`, `comparison.gif`).
 - Show a real-time visualization comparing MPPI and iLQR side-by-side.
+
+---
+## 🎯 Outcome
+
+### Random Action Simulation
+
+Below is the behavior of the double inverted pendulum system under random control actions:
+
+<p align="center">
+  <img src="assets/example.gif" width="400" alt="Random Action Simulation">
+</p>
+
+### MPPI vs iLQR Controller Comparison
+
+The following visualization shows the comparison of MPPI and iLQR controllers in stabilizing the pendulum:
+
+<p align="center">
+  <img src="assets/comparison.gif" width="600" alt="MPPI vs iLQR Comparison">
+</p>
+
