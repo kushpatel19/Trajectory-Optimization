@@ -22,15 +22,8 @@ cd Trajectory-Optimization
 Then install the required dependencies by running the install script:
 
 ```bash
-chmod +x install.sh
-./install.sh
+bash ./install.sh
 ```
-This will install the following Python packages:
-- torch
-- numpy
-- matplotlib
-- pybullet
-
 ---
 
 ## 🚀 Running the Simulation
@@ -65,3 +58,4 @@ The following visualization shows the comparison of MPPI and iLQR controllers in
   <img src="assets/final.gif" width="600" alt="MPPI vs iLQR Comparison">
 </p>
 
+Stay Tuned for better results:)
