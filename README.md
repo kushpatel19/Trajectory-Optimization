@@ -62,6 +62,6 @@ Below is the behavior of the double inverted pendulum system under random contro
 The following visualization shows the comparison of MPPI and iLQR controllers in stabilizing the pendulum:
 
 <p align="center">
-  <img src="assets/comparison.gif" width="600" alt="MPPI vs iLQR Comparison">
+  <img src="assets/final.gif" width="600" alt="MPPI vs iLQR Comparison">
 </p>
 
