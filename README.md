@@ -24,12 +24,6 @@ Then install the required dependencies by running the install script:
 ```bash
 ./install.sh
 ```
-This will install the following Python packages:
-- torch
-- numpy
-- matplotlib
-- pybullet
-
 ---
 
 ## 🚀 Running the Simulation
