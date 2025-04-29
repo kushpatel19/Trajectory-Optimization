@@ -22,7 +22,7 @@ cd Trajectory-Optimization
 Then install the required dependencies by running the install script:
 
 ```bash
-./install.sh
+bash ./install.sh
 ```
 ---
 
