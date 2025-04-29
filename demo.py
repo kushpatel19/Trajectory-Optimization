@@ -113,7 +113,7 @@ def main():
             'hyperparams': get_cartpole_mppi_hyperparams()
         },
         total_steps=50,
-        save_gif_path='mppi.gif'
+        save_gif_path='assets/mppi1.gif'
     )
     end_time = time.time()
     np.save('mppi_costs.npy', mppi_costs)
@@ -129,14 +129,14 @@ def main():
             'max_iters': 100
         },
         total_steps=100,
-        save_gif_path='ilqr.gif'
+        save_gif_path='assets/ilqr1.gif'
     )
     end_time = time.time()
     np.save('ilqr_costs.npy', ilqr_costs)
     print(f"iLQR Simulation completed in {end_time - start_time:.2f} seconds.\n")
 
     # print("Displaying simulations side by side...")
-    display_side_by_side(mppi_frames, ilqr_frames, save_combined_gif="comparison.gif")
+    display_side_by_side(mppi_frames, ilqr_frames, save_combined_gif="assets/comparison1.gif")
 
 if __name__ == "__main__":
     main()
