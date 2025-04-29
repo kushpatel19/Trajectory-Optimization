@@ -22,7 +22,6 @@ cd Trajectory-Optimization
 Then install the required dependencies by running the install script:
 
 ```bash
-chmod +x install.sh
 ./install.sh
 ```
 This will install the following Python packages:
